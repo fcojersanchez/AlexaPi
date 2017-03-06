@@ -192,3 +192,11 @@ platforms:
       processing_end: ""
       failure: ""
       success: ""
+
+  bbb:
+    # GPIO Pin with button connected
+    button: P8_7
+    # GPIO Pin for the playback/activity light
+    plb_light: P8_9
+    # GPIO Pin for the recording light
+    rec_light: P8_11
