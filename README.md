@@ -1,6 +1,6 @@
 ## [AlexaPi](https://github.com/alexa-pi/AlexaPi) with support for BeagleBone Black
 
-BeagleBone Black device added to the project. Install following the original [AlexaPi Installation Guide](https://github.com/alexa-pi/AlexaPi/wiki/Installation), with:
+BeagleBone Black device added to the [great original project for Raspberry Pi](https://github.com/alexa-pi/AlexaPi). Install following the original [AlexaPi Installation Guide](https://github.com/alexa-pi/AlexaPi/wiki/Installation), with:
 - OS: Debian
 - Device: bbb
 
