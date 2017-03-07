@@ -11,6 +11,5 @@ class BbbPlatform(RPiLikePlatform):
 	def setup(self):
 		GPIO.setwarnings(False)
 		GPIO.cleanup()
-		#GPIO.setmode(GPIO.BCM)
 
 		super(BbbPlatform, self).setup()
