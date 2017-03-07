@@ -10,16 +10,16 @@ Requires=sound.target
 After=network.target network-online.target sound.target
 
 [Service]
+WorkingDirectory=/opt/AlexaPi/src/
 Type=simple
-ExecStart=/usr/bin/python /opt/AlexaPi/src/main.py --daemon
+ExecStart=/usr/bin/python main.py --daemon
 
-User=alexapi
-Group=alexapi
+User=root
+Group=root
 
 ProtectHome=true
 RuntimeDirectory=AlexaPi
 RuntimeDirectoryMode=0770
-WorkingDirectory=/run/AlexaPi
 
 [Install]
 WantedBy=default.target
