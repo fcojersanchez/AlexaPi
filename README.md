@@ -1,3 +1,20 @@
+## [AlexaPi](https://github.com/alexa-pi/AlexaPi) with support for BeagleBone Black
+
+BeagleBone Black device added to the project. Install following the [AlexaPi Installation Guide](https://github.com/alexa-pi/AlexaPi/wiki/Installation), with:
+- OS: Debian
+- Device: bbb
+
+Hardware Configuration (config.yaml):
+- button: P8_7
+- plb_light: P8_9
+- rec_light: P8_11
+
+If you find problems with pip2 when installing, try:
+
+pip install pip --upgrade
+
+
+
 # AlexaPi (the new & awesome version) [![Gitter chat](https://badges.gitter.im/alexa-pi/Lobby.png)](https://gitter.im/alexa-pi/Lobby)
 
 This is a client for Amazon's Alexa service. It is intended and tested to run on a wide range of platforms, such as Raspberry Pi, Orange Pi, CHIP and ordinary Linux desktops.
